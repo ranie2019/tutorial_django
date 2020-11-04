@@ -1,3 +1,4 @@
+  
 """
 WSGI config for tutorialdjango project.
 It exposes the WSGI callable as a module-level variable named ``application``.
@@ -9,6 +10,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tutorialdjango.settings.base')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "tutorialdjango.settings.base")
 
 application = get_wsgi_application()
